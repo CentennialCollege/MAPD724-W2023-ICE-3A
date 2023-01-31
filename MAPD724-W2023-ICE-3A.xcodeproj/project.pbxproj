@@ -40,6 +40,7 @@
 		E91B20DC2988910D0026AE3E /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B20D52988910C0026AE3E /* Ocean.swift */; };
 		E91B20DD2988910D0026AE3E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B20D62988910C0026AE3E /* Player.swift */; };
 		E91B20E229889BC30026AE3E /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B20E129889BC30026AE3E /* CollisionManager.swift */; };
+		E91B20E42988A3430026AE3E /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B20E32988A3430026AE3E /* ScoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		E91B20D52988910C0026AE3E /* Ocean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		E91B20D62988910C0026AE3E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E91B20E129889BC30026AE3E /* CollisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionManager.swift; sourceTree = "<group>"; };
+		E91B20E32988A3430026AE3E /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				E91B20E129889BC30026AE3E /* CollisionManager.swift */,
+				E91B20E32988A3430026AE3E /* ScoreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91B20E42988A3430026AE3E /* ScoreManager.swift in Sources */,
 				E91B2096298890D00026AE3E /* GameScene.swift in Sources */,
 				E91B20D72988910D0026AE3E /* GameProtocol.swift in Sources */,
 				E91B2098298890D00026AE3E /* GameViewController.swift in Sources */,
